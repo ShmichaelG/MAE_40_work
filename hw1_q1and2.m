@@ -2,7 +2,7 @@
 % x={I_L,Ic,I_R,Vo}  <-- unknown vector
 clear, close all, syms s Vi Vs C L R R1 R2
 
-A  =[ 2  -1  -1  0;    % I_L - Ic - I_R = 0
+A  =[ 1  -1  -1  0;    % I_L - Ic - I_R = 0
      L*s  0  0  1;    % L*s*I_L + Vo = Vi
      0  -1  0  C*s;  % C*s*Vo - Ic = 0
      0  0  R  -1];   % I_R*R - Vo = 0
