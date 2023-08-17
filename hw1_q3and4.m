@@ -1,6 +1,6 @@
 % Second-order low-pass LC filter: Solve for Vo as a function of Vi
 clear, close all, syms s Vi Vs C L R R1 R2 Rd Cd
-Rd = sqrt(L/C);  Cd = 4*C;   %Question 4 values of Rd and Cd
+%Rd = sqrt(L/C);  Cd = 4*C;   %Question 4 values of Rd and Cd (Remove % from beginning of the line)
 
 % x={I_L, I_C,  I_Rd,  I_Cd, Vo}  <-- unknown vector
 A  =[ 1   -1    -1      0    0;     % I_L - I_C - I_Rd = 0
