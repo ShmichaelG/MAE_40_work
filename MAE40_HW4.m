@@ -1,5 +1,5 @@
 clear; syms s R L C Vin Vd Vm Vo b0 a1 a0        
-% x={ Vo;  Vm; IR;  IC;    IL}     <- unknown vector  
+% x={ Vo;  Vm; IR;  IC;    IL}       
 A  =[  0   -1   0    0     L*s;    
       -1    0   0  1/(C*s)  0;    
       -1    0   R    0      0;    
